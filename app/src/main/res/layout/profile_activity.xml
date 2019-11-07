@@ -13,20 +13,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter your email address:"
-
-/>
+        android:text="Your profile"
+        android:inputType="textEmailAddress"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name:"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <EditText android:id="@+id/emailText"
+    <EditText android:id="@+id/NameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type email here"
-        android:inputType="textEmailAddress"
-        android:textSize="30dp"
-/>
+        android:hint="Enter your name"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -34,27 +38,56 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Type your password:"
- />
+        android:text="Your Email:"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <EditText android:id="@+id/passWord"
+    <EditText android:id="@+id/emailText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
+        android:hint="Enter your Email"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Picture:"
         />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <Button android:id="@+id/LoginButton"
+    <ImageButton android:id="@+id/ImageButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:src="@android:drawable/picture_frame"
+    />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click the button above to take your picture"
         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/gotochatbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Chat"
+        />
+
+
 
 
 </LinearLayout>

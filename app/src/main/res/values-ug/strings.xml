@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">lab1</string>
-    <string name="hello_Message">雷猴啊</string>
-    <string name="ButtonText">我是按钮哦</string>
+    <string name="app_name">拉布3</string>
+    <string name="send">发送</string>
+    <string name="recieve">接受</string>
+    <string name="type">输入</string>
 </resources>
